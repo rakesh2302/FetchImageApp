@@ -4,6 +4,7 @@
 ## Introduction
 
 This app shows a list of images. Image list are available in vertical and horizontal alignment.
+
  
  ## Architecture:
 
