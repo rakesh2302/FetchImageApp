@@ -12,6 +12,7 @@ import Combine
 
 struct ImageView: View {
     @ObservedObject var viewModel: FetchImageViewModel
+    
     @State var scaleImage: Bool = false
     @State var isHorizontalList: Bool = false
     var cancellable: AnyCancellable?
