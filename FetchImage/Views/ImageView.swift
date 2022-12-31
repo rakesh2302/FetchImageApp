@@ -17,6 +17,7 @@ struct ImageView: View {
     var cancellable: AnyCancellable?
     @State var selectedImage: Image?
     
+    
     var body: some View {
         switch viewModel.state {
         case .idle:
